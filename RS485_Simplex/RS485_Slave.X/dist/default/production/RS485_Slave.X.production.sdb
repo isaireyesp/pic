@@ -1,0 +1,429 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"11 C:\Users\DELL\MPLABXProjects\RS485_Slave.X\pwm.c
+[v _PWM_Init PWM_Init `(v  1 e 1 0 ]
+"35
+[v _PWM_1_Set_Duty PWM_1_Set_Duty `(v  1 e 1 0 ]
+"28 C:\Users\DELL\MPLABXProjects\RS485_Slave.X\RS485_Slave.c
+[v _main main `(v  1 e 1 0 ]
+"11 C:\Users\DELL\MPLABXProjects\RS485_Slave.X\uart.c
+[v _Uart_Init Uart_Init `(v  1 e 1 0 ]
+"24
+[v _Uart_Available Uart_Available `(s  1 e 2 0 ]
+"29
+[v _Uart_Send_Char Uart_Send_Char `(v  1 e 1 0 ]
+"43
+[v _Uart_Read Uart_Read `(uc  1 e 1 0 ]
+"55
+[v _Uart_Read_String Uart_Read_String `(v  1 e 1 0 ]
+"69
+[v _Uart_Read_Substring Uart_Read_Substring `(v  1 e 1 0 ]
+"11 C:\Users\DELL\MPLABXProjects\RS485_Slave.X\uart_plot.c
+[v _Uart_Read_Plot Uart_Read_Plot `(v  1 e 1 0 ]
+[s S482 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"3290 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[s S491 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S500 . 1 `S482 1 . 1 0 `S491 1 . 1 0 ]
+[v _LATDbits LATDbits `VES500  1 e 1 @3980 ]
+[s S26 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3875
+[s S33 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S40 . 1 `S26 1 . 1 0 `S33 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES40  1 e 1 @3988 ]
+[s S442 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"4033
+[s S451 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+[u S460 . 1 `S442 1 . 1 0 `S451 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES460  1 e 1 @3989 ]
+[s S187 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 SPPIF 1 0 :1:7 
+]
+"4492
+[s S196 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S202 . 1 `S187 1 . 1 0 `S196 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES202  1 e 1 @3998 ]
+"4936
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+[s S274 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4977
+[s S283 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S286 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S289 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S292 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S295 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S297 . 1 `S274 1 . 1 0 `S283 1 . 1 0 `S286 1 . 1 0 `S289 1 . 1 0 `S292 1 . 1 0 `S295 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES297  1 e 1 @4011 ]
+"5146
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+[s S221 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5185
+[s S230 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S239 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S242 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S244 . 1 `S221 1 . 1 0 `S230 1 . 1 0 `S239 1 . 1 0 `S242 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES244  1 e 1 @4012 ]
+"5402
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"5414
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"5426
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"5438
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+"6062
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @4024 ]
+[s S139 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"6098
+[s S148 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S153 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S156 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S159 . 1 `S139 1 . 1 0 `S148 1 . 1 0 `S153 1 . 1 0 `S156 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES159  1 e 1 @4024 ]
+"6242
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @4026 ]
+"6313
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4027 ]
+"6327
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"6496
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+[s S407 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"6606
+[s S410 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S417 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S422 . 1 `S407 1 . 1 0 `S410 1 . 1 0 `S417 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES422  1 e 1 @4033 ]
+"7200
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+[s S63 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 TOUTPS 1 0 :4:3 
+]
+"7228
+[s S67 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[s S75 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 TOUTPS0 1 0 :1:3 
+`uc 1 TOUTPS1 1 0 :1:4 
+`uc 1 TOUTPS2 1 0 :1:5 
+`uc 1 TOUTPS3 1 0 :1:6 
+]
+[u S81 . 1 `S63 1 . 1 0 `S67 1 . 1 0 `S75 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES81  1 e 1 @4042 ]
+"7298
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"7408
+[v _TMR2 TMR2 `VEuc  1 e 1 @4044 ]
+"25 C:\Users\DELL\MPLABXProjects\RS485_Slave.X\RS485_Slave.c
+[v _cad_p cad_p `[14]uc  1 e 14 0 ]
+"26
+[v _buffer buffer `[2][4]uc  1 e 8 0 ]
+"28
+[v _main main `(v  1 e 1 0 ]
+{
+"47
+[v main@estado_led2 estado_led2 `s  1 a 2 32 ]
+"46
+[v main@estado_led1 estado_led1 `s  1 a 2 30 ]
+"48
+[v main@valor_pwm valor_pwm `uc  1 a 1 34 ]
+"55
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.39Cuc  1 a 2 2 ]
+"5
+[v strlen@s s `*.39Cuc  1 p 2 0 ]
+"12
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+{
+"6
+[v atoi@n n `i  1 a 2 20 ]
+[v atoi@neg neg `i  1 a 2 13 ]
+"4
+[v atoi@s s `*.39Cuc  1 p 2 7 ]
+"16
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+{
+[v isspace@c c `i  1 p 2 0 ]
+"8
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+{
+[v isdigit@c c `i  1 p 2 0 ]
+"8
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"55 C:\Users\DELL\MPLABXProjects\RS485_Slave.X\uart.c
+[v _Uart_Read_String Uart_Read_String `(v  1 e 1 0 ]
+{
+"57
+[v Uart_Read_String@cont_buf cont_buf `ui  1 a 2 7 ]
+"58
+[v Uart_Read_String@c c `uc  1 a 1 6 ]
+"55
+[v Uart_Read_String@Buf Buf `*.39uc  1 p 2 0 ]
+[v Uart_Read_String@s_buf s_buf `ui  1 p 2 2 ]
+"67
+} 0
+"43
+[v _Uart_Read Uart_Read `(uc  1 e 1 0 ]
+{
+"53
+} 0
+"11 C:\Users\DELL\MPLABXProjects\RS485_Slave.X\uart_plot.c
+[v _Uart_Read_Plot Uart_Read_Plot `(v  1 e 1 0 ]
+{
+[v Uart_Read_Plot@b_ini b_ini `uc  1 a 1 wreg ]
+"22
+[v Uart_Read_Plot@j j `i  1 a 2 28 ]
+"15
+[v Uart_Read_Plot@i i `i  1 a 2 26 ]
+"14
+[v Uart_Read_Plot@conta_fin conta_fin `i  1 a 2 24 ]
+"13
+[v Uart_Read_Plot@conta_ini conta_ini `i  1 a 2 22 ]
+"11
+[v Uart_Read_Plot@b_ini b_ini `uc  1 a 1 wreg ]
+[v Uart_Read_Plot@b_fin b_fin `uc  1 p 1 13 ]
+[v Uart_Read_Plot@tr_or tr_or `*.39uc  1 p 2 14 ]
+[v Uart_Read_Plot@n_str n_str `*.39uc  1 p 2 16 ]
+[v Uart_Read_Plot@s_buf s_buf `i  1 p 2 18 ]
+"13
+[v Uart_Read_Plot@b_ini b_ini `uc  1 a 1 21 ]
+"30
+} 0
+"69 C:\Users\DELL\MPLABXProjects\RS485_Slave.X\uart.c
+[v _Uart_Read_Substring Uart_Read_Substring `(v  1 e 1 0 ]
+{
+"72
+[v Uart_Read_Substring@lt lt `i  1 a 2 9 ]
+"71
+[v Uart_Read_Substring@pt pt `i  1 a 2 11 ]
+"69
+[v Uart_Read_Substring@cp cp `*.39uc  1 p 2 0 ]
+[v Uart_Read_Substring@vc vc `*.39uc  1 p 2 2 ]
+[v Uart_Read_Substring@inc inc `i  1 p 2 4 ]
+[v Uart_Read_Substring@fn fn `i  1 p 2 6 ]
+"79
+} 0
+"11
+[v _Uart_Init Uart_Init `(v  1 e 1 0 ]
+{
+"19
+[v Uart_Init@vx vx `ui  1 a 2 21 ]
+"11
+[v Uart_Init@baud baud `ul  1 p 4 13 ]
+"22
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"30
+} 0
+"24 C:\Users\DELL\MPLABXProjects\RS485_Slave.X\uart.c
+[v _Uart_Available Uart_Available `(s  1 e 2 0 ]
+{
+"27
+} 0
+"11 C:\Users\DELL\MPLABXProjects\RS485_Slave.X\pwm.c
+[v _PWM_Init PWM_Init `(v  1 e 1 0 ]
+{
+"33
+} 0
+"35
+[v _PWM_1_Set_Duty PWM_1_Set_Duty `(v  1 e 1 0 ]
+{
+[v PWM_1_Set_Duty@value value `uc  1 a 1 wreg ]
+[v PWM_1_Set_Duty@value value `uc  1 a 1 wreg ]
+"37
+[v PWM_1_Set_Duty@value value `uc  1 a 1 0 ]
+"38
+} 0
