@@ -6,6 +6,7 @@ El proyecto demuestra el uso de periféricos del microcontrolador, programación
 
 ---
 
+
 # ✨ Características
 
 * ⚡ Programación de microcontroladores PIC.
