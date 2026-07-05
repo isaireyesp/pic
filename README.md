@@ -35,7 +35,7 @@ El proyecto demuestra el uso de periféricos del microcontrolador, programación
 # 📁 Estructura del proyecto
 
 ```text
-Proyecto-PIC/
+PICS/
 │
 ├── firmware/
 │   ├── main.c
